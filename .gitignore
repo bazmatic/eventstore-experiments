@@ -1,0 +1,16 @@
+# MacOS
+.DS_Store
+# Yarn
+node_modules
+yarn-error.log
+# Editor Setup
+.vscode
+# Husky
+.husky/_
+.husky/.gitignore
+# TypeScript
+build/
+*.tsbuildinfo
+# React
+dist/
+.env

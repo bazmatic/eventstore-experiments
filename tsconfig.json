@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "strict": true,
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "allowUnreachableCode": false,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "rootDir": ".",
+        "outDir": "./build",
+        "sourceMap": true,
+        "lib": ["esnext", "dom"]
+    },
+    "references": [],
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "*/dist/*", "*/build/*"]
+}

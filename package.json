@@ -1,0 +1,21 @@
+{
+  "name": "eventstore-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Barry Earsman",
+  "license": "ISC",
+  "dependencies": {
+    "@eventstore/db-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "assert": "^2.0.0",
+    "mocha": "^9.2.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
